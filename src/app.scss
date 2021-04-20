@@ -1,0 +1,21 @@
+@import 'partials/_variables';
+@import 'partials/_header';
+@import 'partials/content';
+@import 'partials/footer';
+
+
+.red {
+    background-color: rgba(255, 0, 0, 0.33);
+    height: 500px;
+}
+
+.blue {
+    background-color: $brand_primary;
+    height: 500px;
+}
+
+.container {
+    width: 100%;
+    font-family: $font_family;
+   
+}
