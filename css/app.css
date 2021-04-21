@@ -10,7 +10,7 @@
   height: 100%;
 }
 .jumbotron .jumbo-wrapper .jumbo-left {
-  color: #58402c;
+  color: #7F14D4;
   width: 50%;
   height: 100%;
   line-height: 45px;
@@ -37,7 +37,7 @@
 
 .main-up {
   width: 100%;
-  background-color: #ffe7d2;
+  background-color: #0414B3;
 }
 .main-up .main-wrapper {
   text-align: center;
@@ -46,7 +46,7 @@
   width: 80%;
   margin: 0 auto;
   flex-direction: column;
-  color: #58402c;
+  color: #7F14D4;
 }
 .main-up .main-wrapper .main-title {
   width: 100%;
@@ -58,7 +58,7 @@
   justify-content: space-between;
   height: 200px;
   width: 100%;
-  color: #58402c;
+  color: #7F14D4;
 }
 .main-up .main-wrapper .img-box {
   width: 30%;
@@ -76,12 +76,12 @@
   padding-bottom: 50px;
 }
 .main-up .main-wrapper .border-brown {
-  border-bottom: 1px solid #58402c;
+  border-bottom: 1px solid #7F14D4;
 }
 
 .main-down {
   width: 100%;
-  color: #58402c;
+  color: #7F14D4;
 }
 .main-down .down-row-one {
   display: flex;
@@ -139,8 +139,8 @@
 .founders {
   text-align: center;
   padding: 40px;
-  background-color: #ffe7d2;
-  color: #58402c;
+  background-color: #0414B3;
+  color: #7F14D4;
 }
 .founders .founders-title {
   margin: 30px;
@@ -208,7 +208,7 @@ nav.navbar {
   margin: 0 auto;
   height: 80px;
   line-height: 80px;
-  color: #58402c;
+  color: #7F14D4;
 }
 .nav-wrapper .nav-left {
   display: flex;
@@ -254,7 +254,7 @@ nav.navbar {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  color: #58402c;
+  color: #7F14D4;
   margin-top: 50px;
   height: 500px;
 }
