@@ -1,8 +1,9 @@
 // JUMBOTRON 
 
 .jumbotron {
-   height: 300px;
+   height: 350px;
    width: 100%;
+   margin-top: 100px;
         .jumbo-wrapper {
             @include my-wrapper;
             height: 100%;
@@ -100,6 +101,64 @@
                 }
                 
         }
+}
 
-
+.founders {
+    text-align: center;
+    padding: 40px;
+    background-color: $brand_primary;
+    color: $font_primary;
+        .founders-title {
+            margin: 30px;
+                h1 {
+                    margin: 20px;
+                }
+        }
+        .founders-card {
+            text-align: left;
+            width: 80%;
+            margin: 0 auto;
+            padding: 30px;
+            line-height: 200%;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid blue;
+                h1 {
+                    padding: 20px;
+                }
+                p {
+                    margin-bottom: 15px;
+                }
+                .founders-img {
+                    display: flex;
+                    align-items: center;
+                        img {
+                            margin-right: 20px;
+                        }
+                        .founders-name {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        #names {
+                            color: blue;
+                        }
+                    
+                }
+                
+        }
+        .founders-btn {
+            width: 100%;
+                button {
+                    margin-top: 20px;
+                    display: inline-flex;
+                    @include my-btn;
+                        img {
+                            height: 15px;
+                            margin-right: 5px;
+                        }                       
+                }
+                h3 {
+                    margin-top: 20px;
+                }
+        }
 }

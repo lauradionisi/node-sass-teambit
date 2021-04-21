@@ -34,13 +34,15 @@ nav.navbar {
                                 }
                         }
                         button {
+                            display: inline-flex;
                             padding: 8px;
                             border-radius: 5px;
                             border: 1px solid rgb(11, 11, 111);
                             color: rgb(11, 11, 111);
                             background-color: white;
-                                i {
+                                img {
                                     margin-right: 3px;
+                                    height: 15px;
                                 }
                         }
                 }

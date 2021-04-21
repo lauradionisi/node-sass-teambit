@@ -1,12 +1,12 @@
 .jumbotron {
-  height: 300px;
+  height: 350px;
   width: 100%;
+  margin-top: 100px;
 }
 .jumbotron .jumbo-wrapper {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  border: 1px solid brown;
   height: 100%;
 }
 .jumbotron .jumbo-wrapper .jumbo-left {
@@ -45,7 +45,6 @@
   display: flex;
   width: 80%;
   margin: 0 auto;
-  border: 1px solid brown;
   flex-direction: column;
   color: #58402c;
 }
@@ -88,7 +87,7 @@
   display: flex;
   width: 100%;
   height: 500px;
-  margin-bottom: 110px;
+  margin-bottom: 120px;
 }
 .main-down .down-row-one .box-1 {
   height: 100%;
@@ -114,7 +113,7 @@
   display: flex;
   width: 100%;
   height: 500px;
-  margin-bottom: 110px;
+  margin-bottom: 120px;
 }
 .main-down .down-row-two .box-3 {
   width: 30%;
@@ -137,6 +136,67 @@
   width: 100%;
 }
 
+.founders {
+  text-align: center;
+  padding: 40px;
+  background-color: #ffe7d2;
+  color: #58402c;
+}
+.founders .founders-title {
+  margin: 30px;
+}
+.founders .founders-title h1 {
+  margin: 20px;
+}
+.founders .founders-card {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 200%;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+.founders .founders-card h1 {
+  padding: 20px;
+}
+.founders .founders-card p {
+  margin-bottom: 15px;
+}
+.founders .founders-card .founders-img {
+  display: flex;
+  align-items: center;
+}
+.founders .founders-card .founders-img img {
+  margin-right: 20px;
+}
+.founders .founders-card .founders-img .founders-name {
+  display: flex;
+  flex-direction: column;
+}
+.founders .founders-card .founders-img #names {
+  color: blue;
+}
+.founders .founders-btn {
+  width: 100%;
+}
+.founders .founders-btn button {
+  margin-top: 20px;
+  display: inline-flex;
+  background-color: #304890;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+.founders .founders-btn button img {
+  height: 15px;
+  margin-right: 5px;
+}
+.founders .founders-btn h3 {
+  margin-top: 20px;
+}
+
 nav.navbar {
   display: flex;
   border-bottom: 1px solid #411111;
@@ -146,7 +206,6 @@ nav.navbar {
   display: flex;
   width: 80%;
   margin: 0 auto;
-  border: 1px solid brown;
   height: 80px;
   line-height: 80px;
   color: #58402c;
@@ -179,14 +238,53 @@ nav.navbar {
   text-decoration: none;
 }
 .nav-wrapper .nav-right ul button {
+  display: inline-flex;
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #0b0b6f;
   color: #0b0b6f;
   background-color: white;
 }
-.nav-wrapper .nav-right ul button i {
+.nav-wrapper .nav-right ul button img {
   margin-right: 3px;
+  height: 15px;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  color: #58402c;
+  margin-top: 50px;
+  height: 500px;
+}
+.footer-wrapper .footer-left {
+  display: flex;
+  padding: 20px;
+  width: 30%;
+}
+.footer-wrapper .footer-left img {
+  width: 50px;
+  margin-right: 10px;
+}
+.footer-wrapper .footer-left p {
+  font-weight: bold;
+}
+.footer-wrapper .footer-left a {
+  text-decoration: none;
+}
+.footer-wrapper .footer-right {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.footer-wrapper .footer-right .col ul li {
+  list-style: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.footer-wrapper .footer-right .col h2 {
+  margin-bottom: 30px;
 }
 
 * {
