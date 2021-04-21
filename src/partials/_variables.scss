@@ -1,2 +1,20 @@
 $brand_primary: #ffe7d2;
+$font_primary: #58402c;
 $font_family: 'Roboto', sans-serif;
+
+
+// MIXINS
+
+@mixin my-wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid brown;
+}
+
+@mixin my-btn {
+    background-color: #304890;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}

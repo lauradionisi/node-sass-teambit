@@ -1,7 +1,49 @@
 nav.navbar {
+    display: flex;
     border-bottom: 1px solid #411111;
 }
 
-button .submit {
-    border: 1px solid blue;
+.nav-wrapper {
+    @include my-wrapper;
+    height: 80px;
+    line-height: 80px;
+    color: $font_primary;
+        .nav-left {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 20%;
+            font-size: 20px;
+                img {
+                    margin-right: 8px;
+                }
+        }
+        .nav-right {
+            display: flex;
+            justify-content: flex-end;
+            height: 100%;
+            width: 80%;
+                ul {
+                    display: flex;
+                    align-items: center;
+                        li {
+                            margin-right: 20px;
+                            list-style: none;
+                                a {
+                                    text-decoration: none;
+                                }
+                        }
+                        button {
+                            padding: 8px;
+                            border-radius: 5px;
+                            border: 1px solid rgb(11, 11, 111);
+                            color: rgb(11, 11, 111);
+                            background-color: white;
+                                i {
+                                    margin-right: 3px;
+                                }
+                        }
+                }
+        }
 }
+
