@@ -1,7 +1,6 @@
 .jumbotron {
   height: 300px;
   width: 100%;
-  border: 1px solid cornflowerblue;
 }
 .jumbotron .jumbo-wrapper {
   display: flex;
@@ -15,7 +14,6 @@
   width: 50%;
   height: 100%;
   line-height: 45px;
-  border: 1px solid greenyellow;
 }
 .jumbotron .jumbo-wrapper .jumbo-left button {
   margin-top: 20px;
@@ -39,19 +37,104 @@
 
 .main-up {
   width: 100%;
-  height: 1000px;
   background-color: #ffe7d2;
 }
 .main-up .main-wrapper {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 40px;
   display: flex;
   width: 80%;
   margin: 0 auto;
   border: 1px solid brown;
+  flex-direction: column;
   color: #58402c;
+}
+.main-up .main-wrapper .main-title {
+  width: 100%;
+  text-align: center;
+  border-bottom: 20px;
+}
+.main-up .main-wrapper .main-row {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  color: #58402c;
+}
+.main-up .main-wrapper .img-box {
+  width: 30%;
+}
+.main-up .main-wrapper .img-box img {
+  height: 70%;
+  margin: 20px 0;
+}
+.main-up .main-wrapper .second-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin: 50px 0;
+  padding-bottom: 50px;
+}
+.main-up .main-wrapper .border-brown {
+  border-bottom: 1px solid #58402c;
+}
+
+.main-down {
+  width: 100%;
+  color: #58402c;
+}
+.main-down .down-row-one {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 110px;
+}
+.main-down .down-row-one .box-1 {
   height: 100%;
+  width: 50%;
+}
+.main-down .down-row-one .box-1 img {
+  width: 100%;
+}
+.main-down .down-row-one .box-2 {
+  width: 30%;
+  margin-left: 20px;
+  line-height: 200%;
+}
+.main-down .down-row-one .box-2 img {
+  width: 100%;
+}
+.main-down .down-row-one .box-2 h2,
+.main-down .down-row-one .box-2 p {
+  margin: 20px 0;
+}
+.main-down .down-row-two {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 110px;
+}
+.main-down .down-row-two .box-3 {
+  width: 30%;
+  margin-left: 20px;
+  line-height: 200%;
+  margin-right: 20px;
+}
+.main-down .down-row-two .box-3 img {
+  width: 100%;
+}
+.main-down .down-row-two .box-3 h2,
+.main-down .down-row-two .box-3 p {
+  margin: 20px 0;
+}
+.main-down .down-row-two .box-4 {
+  height: 100%;
+  width: 50%;
+}
+.main-down .down-row-two .box-4 img {
+  width: 100%;
 }
 
 nav.navbar {
